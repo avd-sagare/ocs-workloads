@@ -1,6 +1,4 @@
 ---
 resources:
-- busybox-rbd-pvc.yaml
 - busybox-rbd-pod.yaml
-- busybox-cephfs-pvc.yaml
 - busybox-cephfs-pod.yaml
