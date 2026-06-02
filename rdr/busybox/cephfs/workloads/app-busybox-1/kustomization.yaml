@@ -13,11 +13,8 @@ patches:
       labelSelector: appname=busybox_app1
     patch: |-
       - op: replace
-        path: /spec/accessModes/0
-        value: ReadWriteMany
-      - op: replace
         path: /spec/storageClassName
-        value: ocs-storagecluster-cephfs
+        value: san-testsdh
       - op: replace
         path: /metadata/labels/appname
         value: busybox_app1_cephfs
