@@ -11,4 +11,4 @@ spec:
   resources:
     requests:
       storage: 94Gi
-  storageClassName: ocs-storagecluster-ceph-rbd
+  storageClassName: san-testsdh
